@@ -1,0 +1,22 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacmmarvin/css.git"
+  },
+  "author": "zac",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaacmmarvin/css/issues"
+  },
+  "homepage": "https://github.com/isaacmmarvin/css#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
