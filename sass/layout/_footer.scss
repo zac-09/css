@@ -11,7 +11,7 @@
     }
     &__logo {
         width: 15rem;
-        height: auto;
+         height: 5.5rem;
         @include respond(tab-port) {
             margin-bottom: 6rem;
         }
@@ -61,4 +61,32 @@
             float: none;
         }
     }
+    &__contact-phone{
+        display: inline-block;
+        &__link {
+            &:link,
+            &:visited, a {
+                color: $color-grey-light-1;
+                background-color: $color-grey-dark-3;
+                text-decoration: none;
+                text-transform: uppercase;
+                display: inline-block;
+                transition: all .3s;
+            }
+    }
+}}
+.social{
+    background-color: $color-grey-dark-3;
+    font-size:3.5rem ;
+}
+.style{
+    color: $color-grey-light-1;
+                background-color: $color-grey-dark-3;
+                text-decoration: none;
+                
+                display: inline-block;
+                transition: all .3s;
+}
+.new__logo{
+    height:10.5rem;
 }

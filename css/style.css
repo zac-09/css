@@ -307,7 +307,7 @@ body {
       clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%); } }
   .header__logo {
-    height: 3.5rem; }
+    height: 5.5rem; }
   .header__logo-box {
     position: absolute;
     top: 4rem;
@@ -455,7 +455,7 @@ body {
     margin-bottom: 10rem; }
   .footer__logo {
     width: 15rem;
-    height: auto; }
+    height: 5.5rem; }
     @media only screen and (max-width: 56.25em) {
       .footer__logo {
         margin-bottom: 6rem; } }
@@ -493,6 +493,29 @@ body {
       .footer__copyright {
         width: 100%;
         float: none; } }
+  .footer__contact-phone {
+    display: inline-block; }
+    .footer__contact-phone__link:link, .footer__contact-phone__link:visited, .footer__contact-phone__link a {
+      color: #f7f7f7;
+      background-color: #333;
+      text-decoration: none;
+      text-transform: uppercase;
+      display: inline-block;
+      transition: all .3s; }
+
+.social {
+  background-color: #333;
+  font-size: 3.5rem; }
+
+.style {
+  color: #f7f7f7;
+  background-color: #333;
+  text-decoration: none;
+  display: inline-block;
+  transition: all .3s; }
+
+.new__logo {
+  height: 10.5rem; }
 
 .row {
   max-width: 114rem;
